@@ -18,3 +18,9 @@ function divSelector () {
 function firstListItem () {
   return $('#pic-list li:first-child')
 }
+
+$(document).on('keypress', function(key) {
+  if (key.which == 13){
+    alert('enter was pressed');
+  }
+});
